@@ -1,7 +1,6 @@
 #ifndef COMMON_H
 #define COMMON_H
 
-
 #pragma comment (lib, "opengl32.lib")
 #include <GLFW/glfw3.h>
 
@@ -14,7 +13,6 @@
 #include <random>
 #include <string>
 
-
 namespace sb {
 	void init();
 	void run();
@@ -23,6 +21,5 @@ namespace sb {
 	//exit the program in case of an error
 	void exitProgram(std::exception& ex);
 }
-
 
 #endif //COMMON_H
